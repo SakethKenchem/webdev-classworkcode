@@ -1,7 +1,10 @@
 body{
     background-color: rgb(250, 255, 254);
+    margin: 0;
 }
-
+*{
+    box-sizing: border-box;
+}
 .toplink{
     background-color: rgb(51, 51, 50);
     overflow: hidden;
@@ -29,7 +32,24 @@ body{
     content: "";
     clear: both;
 }
-
+.left_side_bar{
+    float: left;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.content{
+    float: left;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.right_side_bar{
+    float: left;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
 
 
 
