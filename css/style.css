@@ -65,7 +65,8 @@ body{
     padding: 10px;
 }
 h1{
-    text-transform: uppercase;
+    /* text-transform: none; */
+    text-transform: capitalize;
 }
 h2{
     text-decoration: none;
