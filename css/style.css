@@ -47,6 +47,7 @@ body{
     width: 70%;
     background-color: #ebebeb;
     padding: 20px;
+    text-align: center;
     border-left:#5f5e5e 1px dashed;
     border-right:#5f5e5e 1px dashed;
 }
@@ -69,6 +70,7 @@ h1{
 h2{
     text-decoration: none;
     color: #373737;
+    text-align: left;
 }
 p{
     text-align: justify;
@@ -102,15 +104,27 @@ p{
 /* Table Design */
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
     border: 1px #373737 solid;
     border-spacing: 0;
+    margin: 0 auto;
 }
-table th, table td{
+table th{
+    border: 1px #373737 solid;
+    padding: 8px;
+    text-align: left;
+    background-color: #5f5e5e;
+    color: #ffffff;
+}
+
+table td{
     border: 1px #373737 solid;
     padding: 8px;
     text-align: left;
 }
 tr:nth-child(even){
     background-color: #dbdbdb;
+}
+tbody tr:hover{
+    background-color: #b3e7ff;
 }
