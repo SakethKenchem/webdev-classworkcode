@@ -175,7 +175,6 @@ tbody tr:hover {
 
 .contact-kicker {
     margin: 0 0 8px;
-    color: #c2410c;
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 700;
@@ -220,20 +219,20 @@ tbody tr:hover {
 
 .field textarea {
     resize: vertical;
-    min-height: 130px;
+    min-height: 100px;
 }
 
 .field input:focus,
 .field textarea:focus {
     outline: none;
-    border-color: #c2410c;
+    border-color: #44df07;
 }
 
 .submit-btn {
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 12px 18px;
-    background: #c2410c;
+    background: #36920c;
     color: #ffffff;
     font-weight: 700;
     cursor: pointer;
